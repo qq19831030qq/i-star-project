@@ -1,0 +1,9 @@
+/*幻灯片*/
+.rotator{background-color:#fff;width:960px;height:270px;margin:0px auto;position:relative;font-family:tahoma, arial, 宋体;,Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1px;border:3px solid #f0f0f0;overflow:hidden;-moz-box-shadow:0px 0px 10px #222;-webkit-box-shadow:0px 0px 10px #222;box-shadow:0px 0px 10px #222;}
+.rot-menu{position:absolute;right:0px;top:0px;margin-top:3px;z-index:999;}
+.rot-menu li{display:block;float:left;clear:both;width:210px;}
+.rot-menu li a{width:210px;float:right;clear:both;padding-left:10px;text-decoration:none;display:block;height:56px;line-height:2;background-color:#222;margin:3px -20px 3px 0px;opacity:.9;color:#aba9ae;border:2px solid #000;border-right:none;outline:none;-moz-border-radius:5px 0px 0px 15px;-webkit-border-top-left-radius:5px;-webkit-border-bottom-left-radius:15px;border-top-left-radius:5px;border-bottom-left-radius:15px;}
+.rot-menu li.active a{margin-right:0;background:#FE4C40;border-color:#FF1000;}
+.rot-menu b{display:block;font-size:14px;font-weight:700;color:#ccc;}
+.rot-menu li.active b{color:#fff;}
+.rot-menu li.active em{color:#eee;}

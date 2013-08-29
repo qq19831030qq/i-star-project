@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>有新秀 - 公众选秀平台</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=yes" />
+<link rel="stylesheet" href="<?php echo MONK::include_css('home-base','/Home/source/styles/base.css',false,true); ?>">
+<script type="text/javascript" src="<?php echo MONK::include_js('jQuery','/source/scripts/jquery-1.10.2.min.js',false,true); ?>"></script>
+<script type="text/javascript" src="<?php echo MONK::include_js('home-base','/Home/source/scripts/base.js',false,true); ?>"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("home","/Home/source/styles/home.css",false,true); ?>">
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("index-index","/Home/source/styles/index/index.css",false,true); ?>">
+
+
+</head>
+<body>
+<noscript>提示：检测到您的浏览器未开启JavaScript，请开启后刷新页面重试:)</noscript>
+
+<div class="page" id="page-<?php echo MONK::getConfig('app'); ?>-<?php echo MONK::getConfig('controller'); ?>-<?php echo MONK::getConfig('action'); ?>">
+    <div class="header">
+        <div class="container">
+            <div class="logo">有新秀</div>
+            <div class="top-search">
+                <span><input type="text" x-webkit-grammar="builtin:translate" x-webkit-speech placeholder="新秀名" /></span>
+                <span><i></i></span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li<?php if($menu=='index'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('index/index'); ?>">首页</a></li>
+                    <li<?php if($menu=='space'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('guang/index'); ?>">我的空间</a></li>
+                    <li<?php if($menu=='share'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('user/list'); ?>">新鲜事</a></li>
+                    <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">秀刊</a></li>
+                    <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找新秀</a></li>
+                    <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找节目</a></li>
+                    <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">达人</a></li>
+                </ul>
+            </div>
+            <div class="quick-list">
+                <ul>
+                    <li><a class="logout" data-icon="," href="#"></a></li>
+                    <li><a class="setting" data-icon="#" href="#"></a></li>
+                    <li><a class="notice" data-icon='"' href="#"></a></li>
+                    <li><a class="name" href="#">沈能洲</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+<div class="container index-slider">
+    <div class="rotator">
+        <ul class="rot-menu">
+            <li data-info='{"image":"/Home/source/uploads/slider/index/rBEhVlIcRmgIAAAAAADIts98LM8AACh7QAGvMkAAMjO416.jpg","alt":"中国好声音第二季开场，大家多投票，票数前三的新秀粉丝讲有机会获得免费澳门旅游一次","url":"http://www.baidu.com"}'><a href="javascipt:;"><b>投票有奖，多投多奖</b><em>中国好声音第二季</em></a></li>
+            <li data-info='{"image":"/Home/source/uploads/slider/index/rBEhVVIauAoIAAAAAAEY2XYGibMAACeoAG6WzMAARjx645.jpg","alt":"中国好声音第二季开场，大家多投票，票数前三的新秀粉丝讲有机会获得免费澳门旅游一次","url":"http://www.baidu.com"}'><a href="javascipt:;"><b>投票有奖，多投多奖</b><em>中国好声音第二季</em></a></li>
+            <li data-info='{"image":"/Home/source/uploads/slider/index/rBEhWlIcEUYIAAAAAADnzr-ivykAACe3wJBfnkAAOfm621.jpg","alt":"中国好声音第二季开场，大家多投票，票数前三的新秀粉丝讲有机会获得免费澳门旅游一次","url":"http://www.baidu.com"}'><a href="javascipt:;"><b>投票有奖，多投多奖</b><em>中国好声音第二季</em></a></li>
+            <li data-info='{"image":"/Home/source/uploads/slider/index/rBEhWVIcGPMIAAAAAADPQOVFSaEAACfAAPympAAAM9Y220.jpg","alt":"中国好声音第二季开场，大家多投票，票数前三的新秀粉丝讲有机会获得免费澳门旅游一次","url":"http://www.baidu.com"}'><a href="javascipt:;"><b>投票有奖，多投多奖</b><em>中国好声音第二季</em></a></li>
+        </ul>
+        <a href="#">
+            <div class="rot-body">
+                <img src="" width="960" height="270" class="bg" alt="" />
+            </div>
+        </a>
+    </div>
+</div>
+<div class="container index-main">
+    <div class="other-wrap">
+        
+    </div>
+    <div class="star-wrap">
+        
+    </div>
+</div>
+</div>
+    <div class="footer">
+        <div class="container">
+            © <a href="#">官方微博</a><em>·</em><a href="#">使用帮助</a>
+        </div>
+    </div>
+</div>
+
+<script src="<?php echo MONK::include_js("index-index","/Home/source/scripts/index/index.js",false,true); ?>"></script>
+
+
+</body>
+</html>
