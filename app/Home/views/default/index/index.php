@@ -18,12 +18,17 @@
         </a>
     </div>
 </div>
-<div class="container index-main">
-    <div class="other-wrap">
-        
-    </div>
+<div class="container index-star">
     <div class="star-wrap">
-        
+        <div class="category-item">
+            <div class="c-hd">
+                <h3>综艺</h3>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="c-bd"></div>
+        </div>
     </div>
 </div>
 <!--{/content}-->
