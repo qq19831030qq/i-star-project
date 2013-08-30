@@ -8,3 +8,4 @@ a:hover{color:#FE4C40;}
 h1, h2, h3, h4, h5, h6{font-family:"微软雅黑";}
 .btn{display:block;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;}
 .default-shadow{-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, .1);box-shadow:0 1px 3px rgba(0, 0, 0, .1);border:1px solid #DADADA;}
+.avatar{border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;}
