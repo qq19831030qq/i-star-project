@@ -716,11 +716,10 @@
 </div>
 <div class="container index-journal-fans">
     <div class="journal-wrap">
-        <div class="j-hd"><a class="j-title" href="#"><h3>秀刊</h3></a></div>
         <div class="j-bd default-shadow">
-            <div class="only">
+            <div class="rank">
                 <div class="j-in-hd">
-                    <a href="#"><h4>纯爱</h4></a>
+                    <a href="#"><h4>最排行</h4></a>
                     <div class="inner-class">
                         <ul>
                             <li></li>
@@ -730,10 +729,120 @@
                         </ul>
                     </div>
                 </div>
+                <div class="j-in-bd">
+                    <h5>本周大家最喜欢的新秀</h5>
+                    <div class="rank-list">
+                        <ul class="rank-list-wrap">
+                            <li class="top"></li>
+                            <li class="top"></li>
+                            <li class="top"></li>
+                            <li>
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-rank">粉丝 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
+                            </li>
+                            <li>
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-rank">粉丝 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
+                            </li>
+                            <li>
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-rank">粉丝 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="only">
+                <div class="j-in-hd">
+                    <a href="#"><h4>纯爱<em>秀刊</em></h4></a>
+                    <div class="inner-class">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="j-in-bd">
+                    <div class="s-wrap">
+                        <div class="star-info">
+                            <div class="star-info-wrap">
+                                <img class="star-info-avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="70" height="70">
+                                <h4>吴彦祖</h4>
+                                <p>粉丝：9567</p>
+                                <p>分享：6780</p>
+                            </div>
+                            <div class="action"><a href="#" class="star-set btn">+ 加入粉丝团</a></div>
+                        </div>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                    </div>
+                    <div class="info">
+                        <a class="j-info-title" href="#">好看的秀刊啊</a>
+                        <span><a href="#">张晓晨</a></span>
+                        <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
+                    </div>
+                    <div class="s-wrap">
+                        <div class="star-info">
+                            <div class="star-info-wrap">
+                                <img class="star-info-avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="70" height="70">
+                                <h4>吴彦祖</h4>
+                                <p>粉丝：9567</p>
+                                <p>分享：6780</p>
+                            </div>
+                            <div class="action"><a href="#" class="star-set btn">+ 加入粉丝团</a></div>
+                        </div>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                        <span class="s-item">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
+                        </span>
+                    </div>
+                    <div class="info">
+                        <a class="j-info-title" href="#">好看的秀刊啊</a>
+                        <span><a href="#">张晓晨</a></span>
+                        <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
+                    </div>
+                    <div class="j-fans only">
+                        <h5><a href="#">纯爱达人</a></h5>
+                        <p>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="defalut">
                 <div class="j-in-hd">
-                    <h4><a href="#">广摘</a></h4>
+                    <h4><a href="#">广摘<em>秀刊</em></a></h4>
                     <div class="inner-class">
                         <ul>
                             <li></li>
@@ -746,46 +855,44 @@
                 <div class="j-in-bd">
                     <div class="s-wrap">
                         <span class="s-item first">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="162" height="165">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="109" height="109">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                     </div>
                     <div class="info">
                         <a class="j-info-title" href="#">好看的秀刊啊</a>
-                        <em>(关注 193 | 分享 345)</em>
                         <span><a href="#">张晓晨</a></span>
                         <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
                     </div>
                     <div class="other-j-item">
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <div class="o-info">
                             <p><a class="j-info-title" href="#">好看的秀刊啊</a></p>
-                            <p><em>(关注 193 | 分享 345)</em></p>
                             <div class="fans-info">
                                 <span><a href="#">张晓晨</a></span>
                                 <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
@@ -794,36 +901,16 @@
                     </div>
                     <div class="other-j-item">
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
+                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="54" height="54">
                         </span>
                         <div class="o-info">
                             <p><a class="j-info-title" href="#">好看的秀刊啊</a></p>
-                            <p><em>(关注 193 | 分享 345)</em></p>
-                            <div class="fans-info">
-                                <span><a href="#">张晓晨</a></span>
-                                <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="other-j-item">
-                        <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
-                        </span>
-                        <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
-                        </span>
-                        <span class="s-item">
-                            <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="83" height="82">
-                        </span>
-                        <div class="o-info">
-                            <p><a class="j-info-title" href="#">好看的秀刊啊</a></p>
-                            <p><em>(关注 193 | 分享 345)</em></p>
                             <div class="fans-info">
                                 <span><a href="#">张晓晨</a></span>
                                 <span><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" height="32" width="32"></span>
@@ -833,14 +920,12 @@
                     <div class="j-fans">
                         <h5><a href="#">广摘达人</a></h5>
                         <p>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
-                            <a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="44" height="44" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1xutCFa4bXXXXXXXX_!!78673593-0-pix.jpg_200x200xz.jpg" width="37" height="37" /></a>
                         </p>
                     </div>
                 </div>

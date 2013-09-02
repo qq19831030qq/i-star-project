@@ -21,6 +21,7 @@
                     <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找新秀</a></li>
                     <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找节目</a></li>
                     <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">达人</a></li>
+                    <li<?php if($menu=='rank'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">最排行</a></li>
                 </ul>
             </div>
             <div class="quick-list">

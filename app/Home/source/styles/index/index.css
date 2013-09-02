@@ -32,7 +32,7 @@
 .star-list{overflow:hidden;}
 .star-list-wrap{margin-right:-10px;}
 .index-star-grid{float:left;margin:0 10px 10px 0;font-size:12px;background:#fff;width:230px;margin-bottom:10px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);box-shadow:0 1px 3px rgba(0, 0, 0, .1);border:1px solid #DADADA;}
-.index-star-grid h3{font-size:14px;width:210px;font-family:'Microsoft YaHei',SimHei;margin:4px 10px 0;height:30px;line-height:30px;}
+.index-star-grid h3{font-size:14px;width:210px;margin:4px 10px 0;height:30px;line-height:30px;}
 .index-star-grid h3 a{float:left;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;}
 .share-num{float:right;font-size:12px;line-height:1;color:#5FD9CD;margin-top:8px;border-radius:9px;-webkit-border-radius:9px;-moz-border-radius:9px;-ms-border-radius:9px;}
 .index-star-grid .album{margin-left:11px;}
@@ -50,21 +50,37 @@
 .category-item.beauty .share-num{color:#FBADAA;}
 /*秀刊*/
 .index-journal-fans .j-hd{border:0;}
-.index-journal-fans .j-bd{padding:10px 30px;background:#fff;overflow:hidden;}
-.j-bd .only{float:right;width:419px;margin-left:30px;}
-.j-bd .defalut{overflow:hidden;border-right:1px solid #ededef;padding-right:30px;}
+.index-journal-fans .j-bd{padding:10px 20px;background:#fff;overflow:hidden;}
+.j-bd .only,.j-bd .rank{float:right;width:279px;margin-left:20px;padding-left:20px;border-left:1px solid #ededef;}
+.j-bd .defalut{overflow:hidden;}
 .j-in-hd h4{font-size:18px;font-weight:700;}
-.j-in-bd,.other-j-item,.j-fans{margin-top:15px;}
-.j-in-bd img{float:left;margin:0 1px 1px 0;background:#ededef;}
+.j-in-hd h4 em{font-size:14px;vertical-align:bottom;color:#FE4C40;margin-left:2px;}
+.j-in-bd,.j-fans{margin-top:15px;}
+.j-in-bd img,.star-info{float:left;margin:0 1px 1px 0;background:#ededef;}
 .j-in-bd .s-wrap,.j-in-bd .other-j-item{overflow:hidden;border:1px solid #ededef;padding:1px 0 0 1px;}
 .j-in-bd .info{height:40px;line-height:40px;}
 .j-info-title{font-weight:700;}
-.j-in-bd .info em,.other-j-item .o-info p em{color:#aaa;}
 .j-in-bd .info span{float:right;color:#ababab;margin-left:5px;}
 .j-in-bd .info span img{margin-top:4px;}
+.other-j-item{margin-top:10px;}
 .other-j-item .o-info{float:left;padding-left:10px;margin:2px 0 1px 10px;border-left:1px solid #ededef;}
 .other-j-item .o-info p{height:22px;line-height:22px;}
 .other-j-item .o-info .fans-info{height:32px;line-height:32px;}
 .j-fans h5{font-size:14px;}
 .j-fans p{overflow:hidden;margin-right:-16px;margin-top:10px;}
-.j-fans p img{margin-right:9px;}
+.j-fans p img{margin-right:10px;}
+.star-info{width:156px;height:101px;padding:4px;background:#fff;}
+.star-info-wrap{position:relative;padding-left:80px;height:70px;line-height:1.8;}
+.star-info .star-set:hover{background:#FE4C40;}
+.star-info-avatar{position:absolute;left:0;top:0;}
+.j-fans.only{margin-top:4px;}
+.j-in-bd h5{font-size:16px;text-align:center;margin-bottom:10px;}
+.rank-list-wrap li{position:relative;height:30px;padding:5px 5px 5px 50px;line-height:30px;}
+.rank-list-wrap li img{position:absolute;top:5px;left:5px;}
+.rank-list-wrap .star-name{font-family:"微软雅黑";font-size:16px;}
+.rank-list-wrap .star-rank{float:right;color:#aaa;}
+.rank-list-wrap .star-action{float:right;display:none;}
+.rank-list-wrap li:hover{background:#efefef;}
+.rank-list-wrap li:hover .star-rank{display:none;}
+.rank-list-wrap li:hover .star-action{display:block;}
+.rank-list-wrap .star-action .star-set{margin:0;padding:0 10px;background:#FE4C40;}
