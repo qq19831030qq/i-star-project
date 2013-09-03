@@ -1,0 +1,4 @@
+/*右侧推荐节目及推荐秀刊*/
+.filter{float:right;width:200px;margin-left:40px;background:#fff;}
+/*左侧动态*/
+.feed-space{overflow:hidden;}

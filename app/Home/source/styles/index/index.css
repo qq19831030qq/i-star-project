@@ -53,9 +53,14 @@
 .index-journal-fans .j-bd{padding:10px 20px;background:#fff;overflow:hidden;}
 .j-bd .only,.j-bd .rank{float:right;width:279px;margin-left:20px;padding-left:20px;border-left:1px solid #ededef;}
 .j-bd .defalut{overflow:hidden;}
-.j-in-hd h4{font-size:18px;font-weight:700;}
-.j-in-hd h4 em{font-size:14px;vertical-align:bottom;color:#FE4C40;margin-left:2px;}
-.j-in-bd,.j-fans{margin-top:15px;}
+.j-in-hd h4{font-size:18px;font-weight:700;line-height:30px;}
+.j-in-hd h4 .h-t{float:left;}
+.j-in-hd h4 em{font-size:14px;line-height:1.8;vertical-align:bottom;color:#FE4C40;margin-left:2px;}
+.j-in-hd .inner-class{display:block;float:left;}
+.j-in-hd .inner-class li,.j-in-hd h4 span{float:left;font-size:12px;font-family:"宋体";font-weight:400;margin-left:10px;}
+.j-in-hd .inner-class li a{color:#999;}
+.j-in-hd h4 span{float:right;}
+.j-in-bd,.j-fans{margin-top:15px;overflow:hidden;}
 .j-in-bd img,.star-info{float:left;margin:0 1px 1px 0;background:#ededef;}
 .j-in-bd .s-wrap,.j-in-bd .other-j-item{overflow:hidden;border:1px solid #ededef;padding:1px 0 0 1px;}
 .j-in-bd .info{height:40px;line-height:40px;}
@@ -75,12 +80,16 @@
 .star-info-avatar{position:absolute;left:0;top:0;}
 .j-fans.only{margin-top:4px;}
 .j-in-bd h5{font-size:16px;text-align:center;margin-bottom:10px;}
-.rank-list-wrap li{position:relative;height:30px;padding:5px 5px 5px 50px;line-height:30px;}
+.rank-list-wrap li{position:relative;height:30px;padding:5px 5px 5px 40px;line-height:30px;}
+.rank-list-wrap li.top{height:60px;padding:8px 5px 8px 70px;}
 .rank-list-wrap li img{position:absolute;top:5px;left:5px;}
 .rank-list-wrap .star-name{font-family:"微软雅黑";font-size:16px;}
 .rank-list-wrap .star-rank{float:right;color:#aaa;}
+.rank-list-wrap li.top .star-rank{float:left;}
 .rank-list-wrap .star-action{float:right;display:none;}
 .rank-list-wrap li:hover{background:#efefef;}
-.rank-list-wrap li:hover .star-rank{display:none;}
+.rank-list-wrap li:not(.top):hover .star-rank{display:none;}
 .rank-list-wrap li:hover .star-action{display:block;}
 .rank-list-wrap .star-action .star-set{margin:0;padding:0 10px;background:#FE4C40;}
+.j-in-bd.fans{display:none;}
+.j-in-hd .inner-class.slider-link li.current{border-top:4px solid #FE4C40;margin-top:-4px;}

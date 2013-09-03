@@ -718,57 +718,107 @@
     <div class="journal-wrap">
         <div class="j-bd default-shadow">
             <div class="rank">
-                <div class="j-in-hd">
-                    <a href="#"><h4>最排行</h4></a>
-                    <div class="inner-class">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                <div class="j-in-hd clearfix">
+                    <h4>
+                        <a class="h-t" href="#">最排行</a>
+                        <ul class="inner-class slider-link">
+                            <li class="current"><a href="javascript:;">新秀榜</a></li>
+                            <li><a href="javascript:;">秀丁榜</a></li>
                         </ul>
-                    </div>
+                        <span><a href="#">查看全部></a></span>
+                    </h4>
                 </div>
-                <div class="j-in-bd">
+                <div class="j-in-bd star">
                     <h5>本周大家最喜欢的新秀</h5>
                     <div class="rank-list">
                         <ul class="rank-list-wrap">
-                            <li class="top"></li>
-                            <li class="top"></li>
-                            <li class="top"></li>
+                            <li class="top">
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span></p>
+                                <p class="star-rank">粉丝 2034 | 分享 1044</p>
+                            </li>
+                            <li class="top">
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span></p>
+                                <p class="star-rank">粉丝 2034 | 分享 1044</p>
+                            </li>
+                            <li class="top">
+                                <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span></p>
+                                <p class="star-rank">粉丝 2034 | 分享 1044</p>
+                            </li>
                             <li>
                                 <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
-                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-name">巫启贤</span>
                                 <span class="star-rank">粉丝 2034 | 分享 1044</span>
                                 <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
                             </li>
                             <li>
                                 <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
-                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-name">巫启贤</span>
                                 <span class="star-rank">粉丝 2034 | 分享 1044</span>
                                 <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
                             </li>
                             <li>
                                 <img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
-                                <span class="star-name YaHei">巫启贤</span>
+                                <span class="star-name">巫启贤</span>
                                 <span class="star-rank">粉丝 2034 | 分享 1044</span>
                                 <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加入粉丝团</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="j-in-bd fans">
+                    <h5>本周最辛勤的秀丁</h5>
+                    <div class="rank-list">
+                        <ul class="rank-list-wrap">
+                            <li class="top">
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span></p>
+                                <p class="star-rank">秀刊 2034 | 分享 1044</p>
+                            </li>
+                            <li class="top">
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span></p>
+                                <p class="star-rank">秀刊 2034 | 分享 1044</p>
+                            </li>
+                            <li class="top">
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="60" height="60">
+                                <p class="star-name">巫启贤<span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span></p>
+                                <p class="star-rank">秀刊 2034 | 分享 1044</p>
+                            </li>
+                            <li>
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name">巫启贤</span>
+                                <span class="star-rank">秀刊 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span>
+                            </li>
+                            <li>
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name">巫启贤</span>
+                                <span class="star-rank">秀刊 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span>
+                            </li>
+                            <li>
+                                <img class="avatar" src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/T1jLdzFmdaXXXXXXXX_!!78673593-0-pix.jpg_100x100xz.jpg" width="30" height="30">
+                                <span class="star-name">巫启贤</span>
+                                <span class="star-rank">秀刊 2034 | 分享 1044</span>
+                                <span class="star-action"><a class="star-set btn" href="javasctipt:;">+ 加关注</a></span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="only">
-                <div class="j-in-hd">
-                    <a href="#"><h4>纯爱<em>秀刊</em></h4></a>
-                    <div class="inner-class">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                <div class="j-in-hd clearfix">
+                    <h4>
+                        <a class="h-t" href="#">纯爱<em>秀刊</em></a>
+                        <ul class="inner-class">
+                            <li><a href="#">时尚</a></li>
+                            <li><a href="#">风情</a></li>
                         </ul>
-                    </div>
+                        <span><a href="#">查看全部></a></span>
+                    </h4>
                 </div>
                 <div class="j-in-bd">
                     <div class="s-wrap">
@@ -841,16 +891,15 @@
                 </div>
             </div>
             <div class="defalut">
-                <div class="j-in-hd">
-                    <h4><a href="#">广摘<em>秀刊</em></a></h4>
-                    <div class="inner-class">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                <div class="j-in-hd clearfix">
+                    <h4>
+                        <a class="h-t" href="#">广摘<em>秀刊</em></a>
+                        <ul class="inner-class">
+                            <li><a href="#">时尚</a></li>
+                            <li><a href="#">风情</a></li>
                         </ul>
-                    </div>
+                        <span><a href="#">查看全部></a></span>
+                    </h4>
                 </div>
                 <div class="j-in-bd">
                     <div class="s-wrap">

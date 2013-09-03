@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>有新秀 - 公众选秀平台</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=yes" />
+<link rel="stylesheet" href="<?php echo MONK::include_css('home-base','/Home/source/styles/base.css',false,true); ?>">
+<script type="text/javascript" src="<?php echo MONK::include_js('jQuery','/source/scripts/jquery-1.10.2.min.js',false,true); ?>"></script>
+<script type="text/javascript" src="<?php echo MONK::include_js('home-base','/Home/source/scripts/base.js',false,true); ?>"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("home","/Home/source/styles/home.css",false,true); ?>">
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("space-index","/Home/source/styles/space/index.css",false,true); ?>">
+
+
+</head>
+<body>
+<noscript>提示：检测到您的浏览器未开启JavaScript，请开启后刷新页面重试:)</noscript>
+
+<div class="page" id="page-<?php echo MONK::getConfig('app'); ?>-<?php echo MONK::getConfig('controller'); ?>-<?php echo MONK::getConfig('action'); ?>">
+    <div class="header">
+        <div class="container">
+            <div class="logo">有新秀</div>
+            <div class="top-search">
+                <span><input type="text" x-webkit-grammar="builtin:translate" x-webkit-speech placeholder="新秀名" /></span>
+                <span><i></i></span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li<?php if($menu=='index'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('index/index'); ?>">首页</a></li>
+                    <li<?php if($menu=='space'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('space/index'); ?>">我的空间</a></li>
+                    <li<?php if($menu=='share'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('share/index'); ?>">新鲜事</a></li>
+                    <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('sharecollection/index'); ?>">秀刊</a></li>
+                    <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('star/index'); ?>">找新秀</a></li>
+                    <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('program/index'); ?>">找节目</a></li>
+                    <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('fans/index'); ?>">达人</a></li>
+                    <li<?php if($menu=='rank'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('rank/index'); ?>">最排行</a></li>
+                </ul>
+            </div>
+            <div class="quick-list">
+                <ul>
+                    <li><a class="logout" data-icon="," href="#"></a></li>
+                    <li><a class="setting" data-icon="#" href="#"></a></li>
+                    <li><a class="notice" data-icon='"' href="#"></a></li>
+                    <li><a class="name" href="#">沈能洲</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+<div class="container">
+    <div class="filter default-shadow">
+        <div class="filter-wrap">
+            <p>
+                <h4>按关注对象</h4>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">新秀</a></li>
+                    <li><a href="#">秀丁</a></li>
+                    <li><a href="#">秀刊</a></li>
+                </ul>
+            </p>
+            <p>
+                <h4>按动态类型</h4>
+                <ul>
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">分享</a></li>
+                    <li><a href="#">秀刊</a></li>
+                </ul>
+            </p>
+            <p><input type="text" class="feed-search" name="key" />搜索</p>
+        </div>
+        <div class="date-list">
+            <ul>
+                <li>今天</li>
+                <li>昨天</li>
+                <li>前天</li>
+                <li>查看更多</li>
+            </ul>
+        </div>
+    </div>
+    <div class="feed-space">
+        <div class="i-hd">
+            <h3>最新动态<i>设置</i></h3>
+        </div>
+        <div class="i-bd">
+            <div class="push">
+                <div class="push-hd">
+                    <span>我们推荐你关注这些</span>
+                    <ul>
+                        <li><a href="#">新秀<i>刷新按钮</i></a><li>
+                        <li><a href="#">秀丁<i></i></a><li>
+                        <li><a href="#">节目<i></i></a><li>
+                        <li><a href="#">秀刊<i></i></a><li>
+                    </ul>
+                </div>
+                <div class="push-bd">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="#" /></a>
+                            <p>张学友</p>
+                            <p>粉丝 2345 | 分享 3677</p>
+                        </li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feed-time-list"></div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="footer">
+        <div class="container">
+            © <a href="#">官方微博</a><em>·</em><a href="#">使用帮助</a>
+        </div>
+    </div>
+</div>
+
+<script src="<?php echo MONK::include_js("space-index","/Home/source/scripts/space/index.js",false,true); ?>"></script>
+
+
+</body>
+</html>

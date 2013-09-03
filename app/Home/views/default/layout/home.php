@@ -15,13 +15,13 @@
             <div class="nav">
                 <ul>
                     <li<?php if($menu=='index'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('index/index'); ?>">首页</a></li>
-                    <li<?php if($menu=='space'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('guang/index'); ?>">我的空间</a></li>
-                    <li<?php if($menu=='share'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('user/list'); ?>">新鲜事</a></li>
-                    <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">秀刊</a></li>
-                    <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找新秀</a></li>
-                    <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">找节目</a></li>
-                    <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">达人</a></li>
-                    <li<?php if($menu=='rank'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('group/list'); ?>">最排行</a></li>
+                    <li<?php if($menu=='space'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('space/index'); ?>">我的空间</a></li>
+                    <li<?php if($menu=='share'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('share/index'); ?>">新鲜事</a></li>
+                    <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('sharecollection/index'); ?>">秀刊</a></li>
+                    <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('star/index'); ?>">找新秀</a></li>
+                    <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('program/index'); ?>">找节目</a></li>
+                    <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('fans/index'); ?>">达人</a></li>
+                    <li<?php if($menu=='rank'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('rank/index'); ?>">最排行</a></li>
                 </ul>
             </div>
             <div class="quick-list">
