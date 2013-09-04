@@ -57,10 +57,24 @@
                                 <p>张学友</p>
                                 <p>粉丝 2345 | 分享 3677</p>
                             </div>
-                            <div class="push-item-"></div>
+                            <div class="push-item-title">葛优力荐新秀</div>
                         </li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <div class="push-item-info">
+                                <a href="#"><img src="#" /></a>
+                                <p>张学友</p>
+                                <p>粉丝 2345 | 分享 3677</p>
+                            </div>
+                            <div class="push-item-title">葛优力荐新秀</div>
+                        </li>
+                        <li>
+                            <div class="push-item-info">
+                                <a href="#"><img src="#" /></a>
+                                <p>张学友</p>
+                                <p>粉丝 2345 | 分享 3677</p>
+                            </div>
+                            <div class="push-item-title">葛优力荐新秀</div>
+                        </li>
                     </ul>
                 </div>
             </div>
