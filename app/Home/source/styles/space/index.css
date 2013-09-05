@@ -1,4 +1,5 @@
-/*右侧推荐节目及推荐秀刊*/
-.filter{float:right;width:200px;margin-left:40px;background:#fff;}
-/*左侧动态*/
-.feed-space{overflow:hidden;}
+/*用户盒子，推荐新秀，推荐达人*/
+.stamp{position:absolute;right:0;background:#fff;width:230px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);box-shadow:0 1px 3px rgba(0, 0, 0, .1);border:1px solid #DADADA;}
+.user-box{height:200px;}
+.star-recommend{height:400px;top:210px;}
+.fans-recommend{height:400px;top:620px;}
