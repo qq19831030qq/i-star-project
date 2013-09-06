@@ -1,5 +1,126 @@
 /*用户盒子，推荐新秀，推荐达人*/
-.stamp{position:absolute;right:0;background:#fff;width:230px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);box-shadow:0 1px 3px rgba(0, 0, 0, .1);border:1px solid #DADADA;}
-.user-box{height:200px;}
-.star-recommend{height:400px;top:210px;}
-.fans-recommend{height:400px;top:620px;}
+h2.page-title {
+    font-size: 24px;
+    color: #666;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+    margin-bottom: 10px;
+}
+.right-side{float:right;}
+.over-block {
+    width: 210px;
+    background: #FFF;
+    padding: 10px 0 10px 15px;
+    box-shadow: 1px 1px 2px #E4E4E4;
+    border: 1px solid #FFF;
+    margin: 0 0 20px;
+}
+.over-block h3 {
+    font-size: 16px;
+    color: #444;
+}
+.over-block .record-list {
+    margin:10px 0 0 -15px;
+    overflow:hidden;
+}
+.over-block .record-item {
+    position: relative;
+    padding-left:85px;
+    margin-bottom:15px;
+}
+.over-block .record-item img {
+    position: absolute;
+    left:15px;
+    top:0;
+}
+.record-item .star-info a,.record-item .fans-info a {
+    color: #555;
+    font-weight: bold;
+    line-height: 20px;
+}
+.record-item .star-desc,.record-item .fans-desc {
+    color: #999;
+    line-height: 20px;
+}
+.record-item .star-num,.record-item .fans-num {
+    line-height:20px;
+}
+.record-item .star-add a.btn,.record-item .fans-add a.btn {
+    display: none;
+    width: 80px;
+    border: 1px solid #FE4C40;
+    background: #FE4C40;
+    color: #fff;
+}
+.record-item .fans-add a.btn {
+    width: 60px;
+}
+.record-item:hover {
+    opacity: .8;
+    background: rgba(254, 76, 64, 0.1);
+}
+.record-item:hover .star-num,.record-item:hover .fans-num {
+    display:none;
+}
+.record-item:hover .star-add a.btn,.record-item:hover .fans-add a.btn {
+    display:block;
+}
+.s-user-info {
+    position: relative;
+    padding-left: 90px;
+}
+.s-user-info .avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 80px;
+}
+.s-user-info p.user-info-title {
+    margin-bottom: 5px;
+}
+.s-user-info p.user-info-title a{
+    font-size: 14px;
+    color: #FF86B6;
+    line-height: 25px;
+    font-weight: bold;
+}
+.s-user-info .medals img {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.record-warp {
+    margin: 15px 0 0;
+    overflow: hidden;
+}
+.record-warp li {
+    float: left;
+    width: 65px;
+    border-right: 1px solid #ccc;
+}
+.record-warp li.fans {
+    border:0;
+}
+.record-warp li a span {
+    display: block;
+    text-align: center;
+}
+.record-warp li a span.num {
+    font-size: 18px;
+    line-height: 20px;
+    color: #666;
+}
+.over-block .record-star-more {
+    height: 30px;
+    line-height: 30px;
+    width: 195px;
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #666;
+    font-size: 14px;
+}
+.over-block .record-star-more:hover {
+    border: 1px solid #FE4C40;
+    background: #FE4C40;
+    color: #fff;
+}

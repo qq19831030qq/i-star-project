@@ -2,7 +2,7 @@
     $('.share-wall').masonry({
       itemSelector: '.wall-grid',
       stamp: ".stamp",
-      gutter: 10,
-      columnWidth: 232,
+      gutter: 16,
+      columnWidth: 228,
     });
 })(jQuery)
