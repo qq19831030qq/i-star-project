@@ -54,7 +54,11 @@
     </div>
     <div class="middle">
 <div class="container">
-
+    <h2 class="page-title">最热分享</h2>
+    <div class="share-wall">
+        <div class="grade stamp">
+        </div>
+    </div>
 </div>
 </div>
     <div class="footer">

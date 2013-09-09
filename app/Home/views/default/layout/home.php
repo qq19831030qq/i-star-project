@@ -15,8 +15,21 @@
             <div class="nav">
                 <ul>
                     <li<?php if($menu=='index'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('index/index'); ?>">首页</a></li>
-                    <li<?php if($menu=='space'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('space/index'); ?>">我的空间</a></li>
-                    <li<?php if($menu=='share'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('share/index'); ?>">新鲜事</a></li>
+                    <li id="share" <?php if($menu=='share'){ ?> class="active"<?php } ?>>
+                        <a href="<?php echo MONK::_url('share/index'); ?>">新鲜事</a>
+                        <div class="sub-nav">
+                            <ul class="h-n">
+                                <li><a href="<?php echo MONK::_url('share/follow'); ?>">关注动态</a></li>
+                                <li><a href="<?php echo MONK::_url('share/hot'); ?>">热门推荐</a></li>
+                                <li><a href="<?php echo MONK::_url('share/new'); ?>">今日上新</a></li>
+                            </ul>
+                            <ul class="cate">
+                                <li><a href="<?php echo MONK::_url('share/variety'); ?>">综艺</a></li>
+                                <li><a href="<?php echo MONK::_url('share/nba'); ?>">NBA</a></li>
+                                <li><a href="<?php echo MONK::_url('share/beauty'); ?>">选美</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('sharecollection/index'); ?>">秀刊</a></li>
                     <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('star/index'); ?>">找新秀</a></li>
                     <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('program/index'); ?>">找节目</a></li>

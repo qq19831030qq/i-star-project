@@ -1,0 +1,70 @@
+/*左侧分类*/
+h2.page-title {
+    font-size: 24px;
+    color: #666;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+    margin-bottom: 10px;
+}
+
+.category {
+    background: #fff;
+    width: 196px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: 3px double #ccc;
+}
+
+.category ul {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.category li {
+    float: left;
+    padding: 2px 4px;
+    margin: 0 5px 5px 0;
+    border: 1px solid #eee;
+}
+
+.category li a {
+    color: #666;
+}
+
+.category li:hover {
+    border: 1px solid #aaa;
+}
+
+.category li.active {
+    background: #FE4C40;
+    border: 1px solid #FE4C40;
+}
+
+.category li.active a {
+    color: #fff;
+}
+
+.category li.active:hover {
+    border: 1px solid #FE4C40;
+}
+
+.category li.hot {
+    background: #FFEBEA;
+    border: 1px solid #FFEBEA;
+}
+
+.category li.hot a {
+    color: #FE4C40;
+}
+
+.category li.hot:hover {
+    border: 1px solid #FE4C40;
+}
+
+.category .sub-cate {
+    border-bottom: 1px dashed #ccc;
+}

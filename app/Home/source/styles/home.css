@@ -17,7 +17,10 @@
 .quick-list li:hover a{color:#FE4C40;}
 .quick-list .name{width:auto;font-size:12px;line-height:22px;color:#999;font-family:"宋体";}
 [data-icon]:before{font-family:'dhcicon';content: attr(data-icon);speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;font-size:22px;-webkit-font-smoothing:antialiased;}
-.nav li{height:30px;font-size:20px;padding:5px 8px;text-align:center;}
+.nav li{position:relative;height:30px;font-size:20px;padding:5px 8px;text-align:center;}
+.nav li .sub-nav{position:absolute;width:auto;left:0;top:40px;background:#aaa;display:none;z-index:999;}
+.nav li .sub-nav li{clear:both;width:200px;text-align:left;}
+#share:hover .sub-nav,#share .sub-nav:hover{display:block;}
 .nav li a{color:#FE4C40;font-size:16px;}
 .nav li a em{font-family:"幼圆";}
 .nav li:hover,.nav li.active{background:#FE4C40;}
