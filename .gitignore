@@ -214,8 +214,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-############
-## 有新秀
-###########
+# monk
 c_views/
 session/
