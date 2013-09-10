@@ -40,7 +40,7 @@
                     <a href="#"><img class="star-avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="60" height="60" /></a>
                     <h4><a href="#">张学友</a></h4>
                     <p class="from-program">出自:<a href="#">中国好声音</a></p>
-                    <p>
+                    <p class="star-record">
                         <a class="pro-magazine" href="#">133</a>
                         <a class="pro-like" href="#">334</a>
                     </p>
@@ -48,15 +48,150 @@
                 </div>
             </div>
             <div class="comment-wrap clearfix">
-                
+                <div class="comm-add">
+                    <div class="comm-add-bd">
+                        <textarea class="comm-add-content" placeholder="有什么想说的吗 ^_^"></textarea>
+                    </div>
+                    <div class="comm-add-ft">
+                        <a href="javascript:;" class="add-face"></a>
+                        <a href="javascript:;" class="A-comm-submit btn">确定</a>
+                    </div>
+                </div>
+                <div class="comment-list-wrap clearfix">
+                    <ul class="comment-list">
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <a href="#"><img class="avatar" src="/Home/source/uploads/fans/fansid/thumb_8b3e7e575ea14e68ee499453030b5ec7.png" width="40" height="40"></a>
+                            <div class="detail">
+                                <p class="other-user">
+                                    <a class="name" href="#">沈能洲</a>
+                                    <span class="time">1天前</span>
+                                </p>
+                                <p class="comm-info">
+                                    <span class="comm-content">挺好的吃的啊</span>
+                                    <span class="comm-opt">
+                                        <a class="A-reply" href="javascript:;" data-txt="回复@沈能洲:" data-param="{'reply_to_user_id':'587902399','comment_id':'375139045'}"><i></i>回复</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="comment-more">
+                        <a href="#" class="btn">点击查看更多</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="imgs-wrap">
             <ul>
-                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" /></a></li>
-                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" /></a></li>
-                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" /></a></li>
-                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" /></a></li>
+                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" width="578" /></a></li>
+                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" width="578" /></a></li>
+                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" width="578" /></a></li>
+                <li class="s-img"><a href="#"><img src="/Home/source/uploads/share/a87ff679a2f3e71d9181a67b7542122c/5bkdx_kqyvgstikfbg2vtwgfjeg5sckzsew_2628x4481.jpg_468x468.jpg" width="578" /></a></li>
             </ul>
         </div>
     </div>

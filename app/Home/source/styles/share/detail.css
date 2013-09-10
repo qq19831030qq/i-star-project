@@ -135,8 +135,9 @@ span.bds_more {
 .bds_qzone {
     background-position: 0 -75px!important;
 }
-.star-info {
+.star-info,.comment-wrap {
     margin-top: 20px;
+    padding-top: 20px;
 }
 .star-info h3 {
     font-size: 16px;
@@ -164,4 +165,96 @@ span.bds_more {
 }
 .star-info-wrap p.from-program {
     color: #aaa;
+}
+.star-info-wrap .add-star a {
+    display: none;
+    line-height: 20px;
+    height: 20px;
+    color: #fff;
+    width: 100px;
+    background: #FE4C40;
+    border: 1px solid #FE4C40;
+}
+.star-info-wrap:hover .star-record {
+    display: none;
+}
+.star-info-wrap:hover .add-star a {
+    display: block;
+}
+.comm-add-bd textarea {
+    display: block;
+    border: 1px solid #ccc;
+    width: 288px;
+    height: 50px;
+    padding: 5px;
+    resize: none;
+    overflow: hidden;
+}
+.comm-add-ft {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.comm-add-ft .add-face {
+    display: block;
+    float: left;
+    padding-left: 24px;
+    background: url(/Home/source/images/face/default.jpg) no-repeat;
+    height: 24px;
+    margin-right: 10px;
+    color: #666;
+}
+.comm-add-ft .A-comm-submit {
+    float: right;
+    width: 40px;
+    padding: 2px;
+    border: 1px solid #aaa;
+}
+.comment-list-wrap {
+    margin-top: 20px;
+}
+.comment-list {
+    margin:0 -10px;
+}
+.comment-item {
+    padding: 7px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.comment-item .avatar {
+    float: left;
+}
+.comment-item .detail {
+    overflow: hidden;
+    padding-left: 10px;
+}
+.other-user .time {
+    float: right;
+    color: #BFBEBE;
+}
+.comment-item .comm-content {
+    color: #808080;
+}
+.comment-item .comm-opt a {
+    display: none;
+    float: right;
+    color: #fb2b5e;
+}
+.comment-item:hover {
+    background: #F2F2F2;
+}
+.comment-item:hover .comm-opt a {
+    display: block;
+}
+.comment-more a.btn {
+    background: #eee;
+    border: 1px solid #ccc;
+    width: 120px;
+    margin: 10px auto;
+    line-height: 24px;
+    color: #aaa;
+}
+.comment-more a.btn:hover {
+    background: #FE4C40;
+    border: 1px solid #FE4C40;
+    color: #fff;
 }
