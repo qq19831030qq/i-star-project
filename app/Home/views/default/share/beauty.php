@@ -1,11 +1,11 @@
 <!--{@page layout='home'}-->
 <!--{content pagehead}-->
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("share-variety","/Home/source/styles/share/variety.css",false,true); ?>">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("share-beauty","/Home/source/styles/share/beauty.css",false,true); ?>">
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("grid","/Home/source/styles/grid.css",false,true); ?>">
 <!--{/content}-->
 <!--{content pagecontent}-->
 <div class="container">
-    <h2 class="page-title">综艺</h2>
+    <h2 class="page-title">选美</h2>
     <div class="share-wall">
         <div class="category default-shadow stamp">
             <div class="category-item">
@@ -664,5 +664,5 @@
 <!--{/content}-->
 <!--{content pagefoot}-->
 <script src="<?php echo MONK::include_js("grid-a-licious","/Home/source/scripts/masonry.pkgd.min.js",false,true); ?>"></script>
-<script src="<?php echo MONK::include_js("share-variety","/Home/source/scripts/share/variety.js",false,true); ?>"></script>
+<script src="<?php echo MONK::include_js("share-beauty","/Home/source/scripts/share/beauty.js",false,true); ?>"></script>
 <!--{/content}-->

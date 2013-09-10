@@ -1,170 +1,94 @@
 <!--{@page layout='home'}-->
 <!--{content pagehead}-->
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("space-index","/Home/source/styles/space/index.css",false,true); ?>">
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("share-nba","/Home/source/styles/share/nba.css",false,true); ?>">
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo MONK::include_css("grid","/Home/source/styles/grid.css",false,true); ?>">
 <!--{/content}-->
 <!--{content pagecontent}-->
 <div class="container">
-    <h2 class="page-title">关注的动态</h2>
+    <h2 class="page-title">NBA</h2>
     <div class="share-wall">
-        <div class="right-side stamp">
-            <div class="over-block">
-                <div class="s-user-info clearfix">
-                    <a href="#" title="小封情"><img class="avatar" alt="小封情" src="/Home/source/uploads/fans/fansid/100x100.jpg" /></a>
-                    <p class="user-info-title"><a href="#" title="小封情">小封情</a></p>
-                    <p class="medals">
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/not.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/not.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/not.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/active.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/active.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                        <a href="#" target="_blank"><img src="/Home/source/images/medal/10010/25/active.jpg" width="20" height="20" alt="新浪微博认证" title="新浪微博认证"></a>
-                    </p>
-                </div>
-                <div class="record-warp">
-                    <ul class="record">
-                        <li class="star">
-                            <a title="新秀" href="#">
-                                <span class="num">1</span>
-                                <span>新秀</span>
-                            </a>
-                        </li>
-                        <li class="follow">
-                            <a title="关注" href="#">
-                                <span class="num">2</span>
-                                <span>关注</span>
-                            </a>
-                        </li>
-                        <li class="fans">
-                            <a title="秀粉" href="#">
-                                <span class="num">3</span>
-                                <span>秀粉</span>
-                            </a>
-                        </li>
+        <div class="category default-shadow stamp">
+            <div class="category-item">
+                <div class="sub-cate-item">
+                    <h3>内地</h3>
+                    <ul class="sub-cate">
+                        <li><a href="#">全部</a></li>
+                        <li class="active"><a href="#">中国好声音</a></li>
+                        <li class="hot"><a href="#">最美和声</a></li>
+                        <li><a href="#">中国最强音</a></li>
+                        <li class="hot"><a href="#">中国梦之声</a></li>
+                    </ul>
+                    <ul class="sub-star">
+                        <li><a href="#">李宇春</a></li>
+                        <li><a href="#">张靓颖</a></li>
+                        <li class="hot"><a href="#">李莫愁</a></li>
+                        <li><a href="#">李代沫</a></li>
+                        <li class="hot"><a href="#">黄鹤</a></li>
+                        <li><a href="#">刘明辉</a></li>
+                        <li><a href="#">张衡</a></li>
+                        <li class="hot"><a href="#">张朝阳</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="over-block">
-                <h3>推荐新秀<span class=""></span></h3>
-                <ul class="record-list">
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="star-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="star-desc">搭配达人搭配达人</p>
-                        <p class="star-num">粉丝 10456 | 分享 13567</p>
-                        <p class="star-add"><a href="#" class="btn">+ 加入粉丝团</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="star-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="star-desc">搭配达人搭配达人</p>
-                        <p class="star-num">粉丝 10456 | 分享 13567</p>
-                        <p class="star-add"><a href="#" class="btn">+ 加入粉丝团</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="star-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="star-desc">搭配达人搭配达人</p>
-                        <p class="star-num">粉丝 10456 | 分享 13567</p>
-                        <p class="star-add"><a href="#" class="btn">+ 加入粉丝团</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="star-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="star-desc">搭配达人搭配达人</p>
-                        <p class="star-num">粉丝 10456 | 分享 13567</p>
-                        <p class="star-add"><a href="#" class="btn">+ 加入粉丝团</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="star-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="star-desc">搭配达人搭配达人</p>
-                        <p class="star-num">粉丝 10456 | 分享 13567</p>
-                        <p class="star-add"><a href="#" class="btn">+ 加入粉丝团</a></p>
-                    </li>
-                </ul>
-                <a href="#" target="_blank" class="record-star-more btn" title="想看更多新秀点这里">想看更多新秀...</a>
-            </div>
-            <div class="over-block">
-                <h3>推荐达人</h3>
-                <ul class="record-list">
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" class="avatar" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="fans-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="fans-desc">搭配达人搭配达人</p>
-                        <p class="fans-num">秀刊 10456 | 分享 13567</p>
-                        <p class="fans-add"><a href="#" class="btn">+ 关注</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" class="avatar" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="fans-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="fans-desc">搭配达人搭配达人</p>
-                        <p class="fans-num">秀刊 10456 | 分享 13567</p>
-                        <p class="fans-add"><a href="#" class="btn">+ 关注</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" class="avatar" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="fans-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="fans-desc">搭配达人搭配达人</p>
-                        <p class="fans-num">秀刊 10456 | 分享 13567</p>
-                        <p class="fans-add"><a href="#" class="btn">+ 关注</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" class="avatar" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="fans-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="fans-desc">搭配达人搭配达人</p>
-                        <p class="fans-num">秀刊 10456 | 分享 13567</p>
-                        <p class="fans-add"><a href="#" class="btn">+ 关注</a></p>
-                    </li>
-                    <li class="record-item">
-                        <a target="_blank" href="#">
-                            <img alt="张宇" class="avatar" src="/Home/source/uploads/star/starid/64x64.jpg" height="60" width="60">
-                        </a>
-                        <p class="fans-info">
-                            <a target="_blank" class="uname icard" href="#">MAOJIAYING</a>
-                        </p>
-                        <p class="fans-desc">搭配达人搭配达人</p>
-                        <p class="fans-num">秀刊 10456 | 分享 13567</p>
-                        <p class="fans-add"><a href="#" class="btn">+ 关注</a></p>
-                    </li>
-                </ul>
-                <a href="#" target="_blank" class="record-star-more btn" title="想看更多达人点这里">想看更多达人...</a>
+                <div class="sub-cate-item">
+                    <h3>港台</h3>
+                    <ul class="sub-cate">
+                        <li><a href="#">全部</a></li>
+                        <li class="active"><a href="#">中国好声音</a></li>
+                        <li class="hot"><a href="#">最美和声</a></li>
+                        <li><a href="#">中国最强音</a></li>
+                        <li class="hot"><a href="#">中国梦之声</a></li>
+                    </ul>
+                    <ul class="sub-star">
+                        <li><a href="#">李宇春</a></li>
+                        <li><a href="#">张靓颖</a></li>
+                        <li class="hot"><a href="#">李莫愁</a></li>
+                        <li><a href="#">李代沫</a></li>
+                        <li class="hot"><a href="#">黄鹤</a></li>
+                        <li><a href="#">刘明辉</a></li>
+                        <li><a href="#">张衡</a></li>
+                        <li class="hot"><a href="#">张朝阳</a></li>
+                    </ul>
+                </div>
+                <div class="sub-cate-item">
+                    <h3>欧美</h3>
+                    <ul class="sub-cate">
+                        <li><a href="#">全部</a></li>
+                        <li class="active"><a href="#">中国好声音</a></li>
+                        <li class="hot"><a href="#">最美和声</a></li>
+                        <li><a href="#">中国最强音</a></li>
+                        <li class="hot"><a href="#">中国梦之声</a></li>
+                    </ul>
+                    <ul class="sub-star">
+                        <li><a href="#">李宇春</a></li>
+                        <li><a href="#">张靓颖</a></li>
+                        <li class="hot"><a href="#">李莫愁</a></li>
+                        <li><a href="#">李代沫</a></li>
+                        <li class="hot"><a href="#">黄鹤</a></li>
+                        <li><a href="#">刘明辉</a></li>
+                        <li><a href="#">张衡</a></li>
+                        <li class="hot"><a href="#">张朝阳</a></li>
+                    </ul>
+                </div>
+                <div class="sub-cate-item">
+                    <h3>日韩</h3>
+                    <ul class="sub-cate">
+                        <li><a href="#">全部</a></li>
+                        <li class="active"><a href="#">中国好声音</a></li>
+                        <li class="hot"><a href="#">最美和声</a></li>
+                        <li><a href="#">中国最强音</a></li>
+                        <li class="hot"><a href="#">中国梦之声</a></li>
+                    </ul>
+                    <ul class="sub-star">
+                        <li><a href="#">李宇春</a></li>
+                        <li><a href="#">张靓颖</a></li>
+                        <li class="hot"><a href="#">李莫愁</a></li>
+                        <li><a href="#">李代沫</a></li>
+                        <li class="hot"><a href="#">黄鹤</a></li>
+                        <li><a href="#">刘明辉</a></li>
+                        <li><a href="#">张衡</a></li>
+                        <li class="hot"><a href="#">张朝阳</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="wall-grid">
@@ -740,5 +664,5 @@
 <!--{/content}-->
 <!--{content pagefoot}-->
 <script src="<?php echo MONK::include_js("grid-a-licious","/Home/source/scripts/masonry.pkgd.min.js",false,true); ?>"></script>
-<script src="<?php echo MONK::include_js("space-index","/Home/source/scripts/space/index.js",false,true); ?>"></script>
+<script src="<?php echo MONK::include_js("share-nba","/Home/source/scripts/share/nba.js",false,true); ?>"></script>
 <!--{/content}-->

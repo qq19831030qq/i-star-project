@@ -50,4 +50,8 @@ class Home_Controller_Share extends Home_Controller_Base {
     public function actionIndex(){
         return $this->redirect(MONK::_url('*/hot'));
     }
+
+    public function actionDetail(){
+        $this->render();
+    }
 }

@@ -1,0 +1,167 @@
+.share-content-wrap {
+    background: #fff;
+    overflow: hidden;
+}
+.imgs-wrap {
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+.info-wrap {
+    float: right;
+    width: 300px;
+    padding: 20px;
+}
+.imgs-wrap .s-img img {
+    display: block;
+    margin-bottom: 10px;
+}
+.user-info {
+    position: relative;
+    padding-left: 110px;
+    height: 100px;
+}
+.user-info .avatar {
+    border: 3px double #ccc;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 94px;
+    height: 94px;
+}
+.user-name, .user-oprate {
+    margin-bottom: 7px;
+}
+.user-name {
+    margin-top: 10px;
+}
+.user-oprate a.btn {
+    width: 80px;
+    line-height:24px;
+    border-color: #5AA0D8;
+    background-color: #71B7E9;
+    color: #fff;
+}
+.pro-magazine, .pro-like {
+    font: 12px/1.5 helvetica,arial,"hiragino sans gb",\5b8b\4f53,sans-serif;
+    background: url(/Home/source/images/record_icon.png) no-repeat;
+    color: #959595;
+}
+.pro-magazine {
+    padding-left: 19px;
+    background-position: 0 1px;
+}
+.pro-like {
+    padding-left: 17px;
+    background-position: 0 -39px;
+}
+.user-name a{
+    font-size: 16px;
+    color: #FE4C40;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+}
+.desc-txt {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #808080;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.desc-txt:before,.desc-txt:after {
+    content: "“";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    font-size: 42px;
+    color: #C3C5AF;
+    font-family: "Times New Roman", serif;
+}
+.desc-txt:after {
+    content: "”";
+    left: 278px;
+}
+.disc-action {
+    margin-top: 10px;
+}
+.disc-action a {
+    float: left;
+    background: #FB2B5E;
+    line-height: 28px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border: 0;
+}
+.disc-action a span {
+    color: #FFF;
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+}
+.like-num, .magazine-num {
+    font-weight: bold;
+    font-family: tahoma, arial, 宋体;
+}
+#bdshare {
+    _overflow-x: hidden;
+    z-index: 999999;
+    padding-bottom: 2px;
+    font-size: 12px;
+    float: left;
+    text-align: left!important;
+    zoom: 1;
+}
+span.bds_more, .bds_tools a {
+    display: block;
+    font-family: '宋体',Arial;
+    height: 16px;
+    float: left;
+    cursor: pointer;
+    padding: 6px 0 3px 22px;
+    margin: 0;
+}
+span.bds_more {
+    background: url(/Home/source/images/is.png) no-repeat 0 5px!important;
+}
+.bds_tools a {
+    background: url(/Home/source/images/is.png) no-repeat;
+}
+.bds_tsina {
+    background-position: 0 -115px!important;
+}
+.bds_qzone {
+    background-position: 0 -75px!important;
+}
+.star-info {
+    margin-top: 20px;
+}
+.star-info h3 {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 1;
+    border-left: 4px solid #FB2B5E;
+    margin-bottom: 10px;
+}
+.star-info-wrap {
+    position: relative;
+    padding-left: 76px;
+}
+.star-info-wrap .star-avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 3px double #ccc;
+}
+.star-info-wrap h4 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.star-info-wrap p {
+    line-height: 22px;
+}
+.star-info-wrap p.from-program {
+    color: #aaa;
+}
