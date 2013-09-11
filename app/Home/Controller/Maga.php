@@ -8,4 +8,9 @@ class Home_Controller_Maga extends Home_Controller_Base {
         $this->assign('menu','magazine');
         $this->render();
     }
+    
+    public function actionDetail(){
+        $this->assign('menu','magazine');
+        $this->render();
+    }
 }
