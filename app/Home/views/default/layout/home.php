@@ -30,7 +30,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li<?php if($menu=='sharecollection'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('sharecollection/index'); ?>">秀刊</a></li>
+                    <li<?php if($menu=='magazine'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('maga/index'); ?>">秀刊</a></li>
                     <li<?php if($menu=='star'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('star/index'); ?>">找新秀</a></li>
                     <li<?php if($menu=='program'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('program/index'); ?>">找节目</a></li>
                     <li<?php if($menu=='fans'){ ?> class="active"<?php } ?>><a href="<?php echo MONK::_url('fans/index'); ?>">达人</a></li>

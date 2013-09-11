@@ -1,0 +1,56 @@
+/*分类导航*/
+.maga-menu {
+    overflow: hidden;
+}
+.category-select {
+    float: left;
+}
+.category-select li{
+    float: left;
+}
+.category-select li a {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    border-radius: 5px;
+    background: #fefefe;
+    color: #888;
+}
+.type-select {
+    float: right;
+}
+.type-select li {
+    float: left;
+}
+.type-select li a {
+    display: block;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background: #fefefe;
+    color: #888;
+}
+.type-select li.first a {
+    border-left: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.type-select li.last a {
+    border-radius: 0 5px 5px 0;
+}
+.category-select li.active a,.type-select li.active a {
+    border-color: #FFBCB8;
+    font-weight: 700;
+    background: #FFEEED;
+    color: #FE4C40;
+}
+.category-select li:not(.active) a:hover,.type-select li:not(.active) a:hover {
+    opacity: .8;
+}
+.maga-wrap {
+    margin-top: 40px;
+    margin-right: -20px;
+}

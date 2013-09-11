@@ -1,0 +1,20 @@
+.magazine-grid{float:left;margin:0 20px 25px 0;font-size:12px;background:#fff;width:205px;padding:10px;box-shadow:0 1px 3px rgba(0, 0, 0, .1);}
+.magazine-grid h3{font-size:14px;width:205px;font-family:'Microsoft YaHei',SimHei;height:30px;line-height:30px;}
+.magazine-grid h3 a{float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;}
+.magazine-grid .pro-record{margin-bottom:10px;}
+.magazine-grid .pro-share,.magazine-grid .pro-like{font:12px/1.5 helvetica,arial,"hiragino sans gb",\5b8b\4f53,sans-serif;background:url(/Home/source/images/record_icon.png) no-repeat;color:#959595;}
+.magazine-grid .pro-share{padding-left:19px;background-position:0 1px;}
+.magazine-grid .pro-like{padding-left:19px;background-position:0 -39px;}
+.magazine-grid .album{margin:0 -10px;}
+.album-link img{float:left;width:55px;height:55px;border:0;margin:1px 0 0 1px;}
+.album-link .first img{margin:0;}
+.magazine-grid.star-love .first{display:block;padding:10px;background:#FFF3F2;}
+.magazine-grid.star-love .first img{float:left;width:88px;height:88px;border:3px double #ccc;}
+.star-info{padding-left:104px;}
+.star-info h4{font-size:14px;line-height:24px;}
+.star-info p{line-height:22px;color:#aaa;}
+.star-info a{width:80px;line-height:24px;background:#FE4C40;color:#fff;}
+.album-link .first img{width:225px;height:170px;}
+.album-action{overflow:hidden;margin:0 -10px -10px;height:50px;line-height:50px;background:#FFF3F2;}
+.magazine-set{font-size:14px;width:120px;margin:0 auto;height:20px;line-height:20px;padding:5px;margin-top:10px;background:#FE4C40;color:#fff;}
+.star-info a:hover,.magazine-set:hover{color:#fff;opacity:.8;}
