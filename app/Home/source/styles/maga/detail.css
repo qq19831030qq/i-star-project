@@ -1,0 +1,213 @@
+.m-banner img {
+    display: block;
+}
+.title-wrap {
+    padding: 10px;
+    margin-bottom: 40px;
+    background: #fff;
+}
+.title-wrap .m-title {
+    line-height: 30px;
+    overflow: hidden;
+}
+.title-wrap .m-title .add-fav {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin: 3px 0 0 10px;
+    background: #FE4C40;
+    color: #fff;
+    padding: 0 10px;
+}
+.title-wrap .m-title h3 {
+    float: left;
+    color: #666;
+    font-size: 24px;
+    font-weight: normal;
+}
+.title-wrap .m-title h3 em {
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: text-top;
+    color: #888;
+}
+.title-wrap .m-title h3:hover em {
+    color: #FE4C40;
+}
+#bdshare {
+    _overflow-x: hidden;
+    z-index: 999999;
+    padding-bottom: 2px;
+    font-size: 12px;
+    float: left;
+    text-align: left!important;
+    zoom: 1;
+}
+span.bds_more, .bds_tools a {
+    display: block;
+    font-family: '宋体',Arial;
+    height: 16px;
+    float: left;
+    cursor: pointer;
+    padding: 6px 0 3px 22px;
+    margin: 0;
+}
+span.bds_more {
+    background: url(/Home/source/images/is.png) no-repeat 0 5px!important;
+}
+.bds_tools a {
+    background: url(/Home/source/images/is.png) no-repeat;
+}
+.bds_tsina {
+    background-position: 0 -115px!important;
+}
+.bds_qzone {
+    background-position: 0 -75px!important;
+}
+.m-record {
+    height: 18px;
+    margin-top: 10px;
+}
+.m-record span {
+    color: #999;
+    margin-right: 8px;
+}
+.right-side{
+    float:right;
+}
+.over-block {
+    width: 195px;
+    background: #FFF;
+    padding: 10px 15px;
+    margin: 0 0 20px;
+}
+.s-user-info .avatar {
+    float: left;
+    height: 54px;
+    width: 54px;
+}
+.user-info-title {
+    padding-left: 64px;
+}
+
+.user-info-title .user-info-name {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.user-info-title .add-follow {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    background: #FE4C40;
+    color: #fff;
+}
+.m-disc {
+    margin-top: 10px;
+    margin-right: -3px;
+    color: #888;
+    position: relative;
+    padding: 0 14px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.m-disc:before, .m-disc:after {
+    content: "“";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    font-size: 24px;
+    color: #C3C5AF;
+    font-family: "Times New Roman", serif;
+}
+.m-disc:after {
+    content: "”";
+    left: 184px;
+}
+.more-block {
+    margin-top: 30px;
+}
+.more-block h3 {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 1;
+    border-left: 4px solid #FB2B5E;
+    margin-bottom: 10px;
+}
+.star-info-wrap {
+    position: relative;
+    padding-left: 76px;
+}
+.star-info-wrap .star-avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 3px double #ccc;
+}
+.star-info-wrap h4 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.star-info-wrap p {
+    line-height: 22px;
+}
+.star-info-wrap p.from-program {
+    color: #aaa;
+}
+.pro-magazine, .pro-like {
+    font: 12px/1.5 helvetica,arial,"hiragino sans gb",\5b8b\4f53,sans-serif;
+    background: url(/Home/source/images/record_icon.png) no-repeat;
+    color: #959595;
+}
+.pro-magazine {
+    padding-left: 19px;
+    background-position: 0 1px;
+}
+.pro-like {
+    padding-left: 17px;
+    background-position: 0 -39px;
+}
+.star-info-wrap .add-star a {
+    display: none;
+    line-height: 20px;
+    height: 20px;
+    color: #fff;
+    width: 100px;
+    background: #FE4C40;
+    border: 1px solid #FE4C40;
+}
+.star-info-wrap:hover .add-star a {
+    display: block;
+}
+.star-info-wrap:hover .star-record {
+    display: none;
+}
+.m-more-maga-list li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+.m-more-maga-list li a {
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    margin: 0 -15px;
+}
+.m-more-maga-list li a .num {
+    position: absolute;
+    top:0;
+    right:15px;
+}
+.m-more-maga-list li a:hover {
+    opacity: .8;
+    background: rgba(254, 76, 64, 0.1);
+}
+.m-more-fans-list {
+    margin-right: -10px;
+}
+.m-more-fans-list img {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+}

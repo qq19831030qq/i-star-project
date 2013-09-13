@@ -5,7 +5,9 @@ h2.page-title {
     font-family: '\5FAE\8F6F\96C5\9ED1';
     margin-bottom: 10px;
 }
-.right-side{float:right;}
+.right-side {
+    float:right;
+}
 .over-block {
     width: 210px;
     background: #FFF;
