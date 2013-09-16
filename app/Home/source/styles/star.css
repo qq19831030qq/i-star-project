@@ -1,0 +1,10 @@
+.index-star-grid{float:left;margin:0 15px 20px 0;font-size:12px;background:#fff;width:226px;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);box-shadow:0 1px 3px rgba(0, 0, 0, .1);border:1px solid #DADADA;}
+.index-star-grid h3{font-size:14px;width:206px;margin:4px 10px 0;height:30px;line-height:30px;}
+.index-star-grid h3 a{float:left;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;}
+.share-num{float:right;font-size:12px;line-height:1;color:#5FD9CD;margin-top:8px;border-radius:9px;-webkit-border-radius:9px;-moz-border-radius:9px;-ms-border-radius:9px;}
+.index-star-grid .album{margin-left:11px;}
+.album-link img{float:left;width:68px;height:68px;border:0;margin:0 2px 2px 0;}
+.album-link .first img{width:138px;height:138px;}
+.album-action{margin:4px 10px;overflow:hidden;}
+.star-set{font-size:12px;padding:3px;margin:5px 0;background:#ededef;color:#aaa;font-size:14px;text-align:center;border-color:#FFAEC2 #FF6B8F #FF174F #E7889F;}
+.star-set:hover{color:#fff;background:#5FD9CD;}

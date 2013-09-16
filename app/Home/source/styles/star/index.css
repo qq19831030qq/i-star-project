@@ -1,0 +1,10 @@
+/*检索框*/
+.filter-box {
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+}
+/*新秀列表*/
+.s-wrap {
+    overflow: hidden;
+}
